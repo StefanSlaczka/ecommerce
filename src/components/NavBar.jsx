@@ -9,11 +9,10 @@ const Navbar = () => {
         <img src="discord-logo.png" alt="Discord Logo" className="logo-image" />
       </div>*/}
       <div className='nav-items'>
-        <div className=' nav-item active'>Home</div>
-        <div className='nav-item'>Chat</div>
-        <div className='nav-item'>Friends</div>
-        <div>🛒 </div>
-        <div className='nav-item'>Settings</div>
+        <a className=' nav-item' href="/">🏠</a>
+        <a className='nav-item' href="/">💬</a>
+        <a className='nav-item' href="/">🛒 </a>
+        <a className='nav-item' href="/">⚙️</a>
 
       </div>
       <div className='user-profile'>

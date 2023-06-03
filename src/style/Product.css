@@ -30,3 +30,25 @@
   color: #555;
   margin-bottom: 10px;
 }
+
+.buying-form {
+  display: flex;
+  align-items: center;
+}
+
+.buy-button,
+.decrease-button,
+.increase-button {
+  /* Styles for the buttons */
+  /* Add appropriate styling based on your design preferences */
+}
+
+.total {
+  /* Styles for the total */
+  /* Add appropriate styling based on your design preferences */
+}
+
+.buy-something-else {
+  /* Styles for the "Buy something else" button */
+  /* Add appropriate styling based on your design preferences */
+}
