@@ -1,41 +1,32 @@
-/* Product.css */
-.product-card {
-  display: inline-block;
-  margin: 10px;
-  width: 200px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 10px;
+.product {
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
-  transition: box-shadow 0.3s ease; /* Add transition for hover effect */
+  padding: 20px;
 }
 
-.product-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Update box shadow on hover */
+.product-image {
+  max-width: 40%;
+  height: auto;
+  margin-bottom: 10px;
 }
-  
-  .product-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .product-title {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .product-price {
-    font-size: 14px;
-    color: #888;
-  }
-  
-/* ... Existing styles ... */
 
-@media screen and (max-width: 600px) {
-    .product-card {
-      width: 100%;
-    }
-  }
-  
+.product-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.product-description {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+}

@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-left: 200px; /* Add left margin to create space for the fixed navbar */
+  padding-top: 70px; /* Add top padding to prevent content from being overlapped by the navbar */
 }
 
 .App-logo {
