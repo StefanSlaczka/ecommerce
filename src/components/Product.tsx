@@ -3,7 +3,7 @@ import "../style/Product.css";
 
 // later on add a useEffect to make sure the button is being pressed one's
 
-const Product = (props) => {
+const Product = (props:any) => {
   const { image, title, price, discripstion } = props.product;
   const [number, setNumber] = useState(0);
 
